@@ -43,6 +43,26 @@ code {
   color: var(--lemon-glacier);
 }
 
+.red-border{
+  border-color: var(--winter-sky);
+  border-width: 8px;
+}
+
+.blue-border{
+  border-color: var(--turquoise);
+  border-width: 8px;
+}
+
+.yellow-border{
+  border-color: var(--lemon-glacier);
+  border-width: 8px;
+}
+
+.white-border{
+  border-color: var(--white);
+  border-width: 8px;
+}
+
 /* CSS HEX */
 /* --smoky-black: #0c0f0aff;
 --winter-sky: #ff206eff;
