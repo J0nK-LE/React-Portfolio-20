@@ -58,6 +58,21 @@ code {
   border-width: 8px;
 }
 
+.red-border-sm{
+  border-color: var(--winter-sky);
+  border-width: 4px;
+}
+
+.blue-border-sm{
+  border-color: var(--turquoise);
+  border-width: 4px;
+}
+
+.yellow-border-sm{
+  border-color: var(--lemon-glacier);
+  border-width: 4px;
+}
+
 .white-border{
   border-color: var(--white);
   border-width: 8px;

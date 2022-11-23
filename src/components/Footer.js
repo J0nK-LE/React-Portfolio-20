@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="shadow-lg border red-border font-light border-solid rounded-sm py-3 px-auto mb-0 blkBackground">
+    <footer className="relative flex flex-wrap items-center justify-between px-2 py-3 blkBackground">
       <div class="container pt-1">
         <div class="flex justify-center mb-1">
           <a href="https://github.com/J0nK-LE" class="mr-9 text-white">
