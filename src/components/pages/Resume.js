@@ -3,7 +3,7 @@ import React from "react";
 export default function Resume() {
   return (
     <div className="border border-black border-solid mb-8">
-    <div className="border white-border font-light border-solid rounded-sm py-12 px-8  blkBackground">
+    <div className="border white-border font-light border-solid rounded-sm pt-12 pb-16 px-8  blkBackground">
       <h1 className="text-4xl text-white mb-3 text-center">Resume</h1>
       <p className="text-white text-2xl text-center red-text mt-6">Schooling</p>
       <p className="text-white text-lg text-center">

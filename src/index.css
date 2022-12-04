@@ -78,6 +78,12 @@ code {
   border-width: 8px;
 }
 
+footer{
+  left:0;
+bottom:0;
+right:0;
+}
+
 /* CSS HEX */
 /* --smoky-black: #0c0f0aff;
 --winter-sky: #ff206eff;
