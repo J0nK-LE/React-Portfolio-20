@@ -13,10 +13,6 @@ function Portfolio() {
   const [RegexHovering, setRegexHovering] = useState(false);
   const [EmpHovering, setEmpHovering] = useState(false);
   const [TeamHovering, setTeamHovering] = useState(false);
-  // const openInNewTab = url => {
-  //   window.open(url, '_blank', 'noopener,noreferrer');
-  // };
-
 
   const handleMouseOverKey = () => {
     setKeyHovering(true);
@@ -25,7 +21,7 @@ function Portfolio() {
   const handleMouseOutKey = () => {
     setKeyHovering(false);
   };
- 
+
   const handleMouseOverDoom = () => {
     setDoomHovering(true);
   };
@@ -72,7 +68,11 @@ function Portfolio() {
         Portfolio
       </h1>
       <div class="grid grid-cols-2 gap-4 text-white mx-auto">
-        <a href="https://github.com/J0nK-LE/keystone" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://github.com/J0nK-LE/keystone"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             onMouseOver={handleMouseOverKey}
             onMouseOut={handleMouseOutKey}
@@ -97,7 +97,11 @@ function Portfolio() {
             </div>
           )}
         </a>
-        <a href="https://fe011001.github.io/Doomed-Drinks/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://fe011001.github.io/Doomed-Drinks/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             onMouseOver={handleMouseOverDoom}
             onMouseOut={handleMouseOutDoom}
@@ -122,7 +126,11 @@ function Portfolio() {
             </div>
           )}
         </a>
-        <a href="https://damp-badlands-29028.herokuapp.com" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://damp-badlands-29028.herokuapp.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             onMouseOver={handleMouseOverBreit}
             onMouseOut={handleMouseOutBreit}
@@ -134,18 +142,24 @@ function Portfolio() {
             <div>
               <h3 className="text-center blue-text">Breitwieser Project</h3>
               <div className="text-center">
-              Do you have a famous work of art acquired by any means?
-Need a place to sell it? 	No questions asked! Look no further!
-Breitwieser Project is here to assist your transaction.
-ECommerce site, helping famous arts to be handed to others safely and swiftly!
-<div>
-TO ACCESS THE SITE - CLICK ON THE PICTURE OF THE ALLEY AND TYPE THE SECRET CODE "PASSWORD" TO GAIN ACCESS
-</div>
+                Do you have a famous work of art acquired by any means? Need a
+                place to sell it? No questions asked! Look no further!
+                Breitwieser Project is here to assist your transaction.
+                ECommerce site, helping famous arts to be handed to others
+                safely and swiftly!
+                <div>
+                  TO ACCESS THE SITE - CLICK ON THE PICTURE OF THE ALLEY AND
+                  TYPE THE SECRET CODE "PASSWORD" TO GAIN ACCESS
+                </div>
               </div>
             </div>
           )}
         </a>
-        <a href="https://gist.github.com/J0nK-LE/5d4b602e4c55cc5c309f5c3ec1a666f4" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://gist.github.com/J0nK-LE/5d4b602e4c55cc5c309f5c3ec1a666f4"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             onMouseOver={handleMouseOverRegex}
             onMouseOut={handleMouseOutRegex}
@@ -157,12 +171,19 @@ TO ACCESS THE SITE - CLICK ON THE PICTURE OF THE ALLEY AND TYPE THE SECRET CODE 
             <div>
               <h3 className="text-center blue-text">Matching URL REGEX</h3>
               <div className="text-center">
-           This GitHub Gist goes into detailed explanation of how the REGEX that is commonly used to find URLS works. Goes into detail about the structure of the regex as well as all the parts that make up Regexes in general.
+                This GitHub Gist goes into detailed explanation of how the REGEX
+                that is commonly used to find URLS works. Goes into detail about
+                the structure of the regex as well as all the parts that make up
+                Regexes in general.
               </div>
             </div>
           )}
         </a>
-        <a href="https://github.com/J0nK-LE/challenge12" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://github.com/J0nK-LE/challenge12"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             onMouseOver={handleMouseOverEmp}
             onMouseOut={handleMouseOutEmp}
@@ -174,12 +195,20 @@ TO ACCESS THE SITE - CLICK ON THE PICTURE OF THE ALLEY AND TYPE THE SECRET CODE 
             <div>
               <h3 className="text-center yellow-text">Employee Manager's</h3>
               <div className="text-center">
-              Keeps track of employee information, including names, job title, department, salary and who their manager is all through the computer terminal. Employees, their role in the company, and even the departments can be modified as well. All tables are held and changed using SQL on the backend.
+                Keeps track of employee information, including names, job title,
+                department, salary and who their manager is all through the
+                computer terminal. Employees, their role in the company, and
+                even the departments can be modified as well. All tables are
+                held and changed using SQL on the backend.
               </div>
             </div>
           )}
         </a>
-        <a href="https://github.com/J0nK-LE/challenge10" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://github.com/J0nK-LE/challenge10"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             onMouseOver={handleMouseOverTeam}
             onMouseOut={handleMouseOutTeam}
@@ -189,10 +218,13 @@ TO ACCESS THE SITE - CLICK ON THE PICTURE OF THE ALLEY AND TYPE THE SECRET CODE 
           />
           {TeamHovering && (
             <div>
-              <h3 className="text-center yellow-text">Team Profile Generator</h3>
+              <h3 className="text-center yellow-text">
+                Team Profile Generator
+              </h3>
               <div className="text-center">
-             Using the terminal to ask questions about the teams composition the app then creates a webpage about a team of workers by generating the HTML based on the answers. 
-
+                Using the terminal to ask questions about the teams composition
+                the app then creates a webpage about a team of workers by
+                generating the HTML based on the answers.
               </div>
             </div>
           )}
