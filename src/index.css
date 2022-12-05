@@ -31,6 +31,11 @@ code {
   background-color: var(--smoky-black);
 }
 
+.hover\:bg-yellow:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 255 18 / var(--tw-bg-opacity));
+}
+
 .red-text{
   color: var(--winter-sky);
 }
@@ -71,6 +76,11 @@ code {
 .yellow-border-sm{
   border-color: var(--lemon-glacier);
   border-width: 4px;
+}
+
+.yellow-border-xsm{
+  border-color: var(--lemon-glacier);
+  border-width: 1px;
 }
 
 .white-border{
