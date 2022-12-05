@@ -1,76 +1,18 @@
-import React, { useState } from "react";
-import { validEmail, FormErrors } from "../utils/helpers";
+import React from "react";
 
 function Contact() {
-  const [email, setEmail] = useState("");
-  const [name, setName] = useState("");
-  const [message, setMessage] = useState("");
-  const [error, setError] = useState("");
-  const [requireName, setRequireName] = useState("");
-  const [requireEmail, setRequireEmail] = useState("");
-  const [validateEmail, setValidateEmail] = useState("");
-  const [requireMsg, setRequireMsg] = useState("");
 
-  const handleInputChange = (e) => {
-    const { target } = e;
-    const inputType = target.name;
-    const inputValue = target.inputValue;
+    // const [values, setvalues] = useState({
+    //   name: "",
+    //   email: "",
+    //   message: ""
+    // })
 
-    switch (inputType) {
-      case "name":
-        setName(inputValue);
-        break;
-      case "email":
-        setEmail(inputValue);
-        break;
-      case "message":
-        setMessage(inputValue);
-        break;
-      default:
-        break;
-    }
-  };
-
-  // const handleSubmit = (e) => {
-  //   setName("");
-  //   setEmail("");
-  //   setMessage("");
-  // };
-
-  const handleFocusChange = (e) => {
-    const { target } = e;
-    const inputType = target.name;
-    const inputValue = target.inputValue;
-
-    if (inputType === "name") {
-      if (inputValue.length < 1) {
-        setRequireName(true);
-      } else {
-        setRequireName(false);
-      }
-    }
-
-    if (inputType === "email") {
-      if (!validEmail(inputValue)) {
-        setValidateEmail(true);
-      } else {
-        setValidateEmail(false);
-      }
-      if (inputValue.length < 1) {
-        setRequireEmail(true);
-      } else {
-        setRequireEmail(false);
-      }
-    }
-
-    if (inputType === "message") {
-      if (inputValue.length < 0) {
-        setRequireMsg(true);
-      } else {
-        setRequireMsg(false);
-      }
-    }
-  };
+    // const set = name => {
+    //   return ({ target: { value } }) => {
+    //     setValues(oldValues => ({...oldValues, [name]: value }));
+    //   }
+    // };
 
   return (
     <div className="shadow-lg border yellow-border font-light border-solid rounded-sm py-12 px-8 mb-8 blkBackground">
@@ -86,14 +28,14 @@ function Contact() {
             <div className="flex flex-wrap -m-2">
               <div className="p-2 w-1/2">
                 <div className="relative">
-                  <label for="name" className="leading-7 text-base text-white" >
+                  <label for="name" className="leading-7 text-base text-white">
                     Name
                   </label>
                   <input
                     type="text"
+                    required
                     id="name"
-                    name="name"
-                    onChange={handleInputChange} onBlur={handleFocusChange}
+                    na="name"
                     className="w-full bg-gray-100 rounded border red-border-sm focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                 </div>
@@ -105,9 +47,9 @@ function Contact() {
                   </label>
                   <input
                     type="email"
+                    required
                     id="email"
                     name="email"
-                    onChange={handleInputChange} onBlur={handleFocusChange}
                     className="w-full bg-gray-100 rounded border blue-border-sm focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                 </div>
@@ -121,18 +63,19 @@ function Contact() {
                     Message
                   </label>
                   <textarea
+                  required
                     id="message"
                     name="message"
-                    onChange={handleInputChange} onBlur={handleFocusChange}
                     className="w-full bg-gray-100 rounded border yellow-border-sm focus:border-indigo-500 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                   ></textarea>
                 </div>
               </div>
               <div className="p-2 w-full">
-                <button 
-                type="submit"
-                id="submitBtn"
-                className="send-button flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                <button
+                  type="submit"
+                  id="submitBtn"
+                  className="send-button flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                >
                   SEND
                 </button>
               </div>
