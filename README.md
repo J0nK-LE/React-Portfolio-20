@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+<h1 align="center">Jon Kelly's React Portfolio's ReadMe</h1>
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About The Project
+This app is my new portfolio created using React
 
-## Available Scripts
+![Portfolio Screenshot](src/components/assets/react-portfolio-screenshot.png)
+Link to repo - [https://github.com/J0nK-LE/challenge20](https://github.com/J0nK-LE/challenge20)
 
-In the project directory, you can run:
+Link to deployed  - [https://sleepy-everglades-81475.herokuapp.com/](https://sleepy-everglades-81475.herokuapp.com/)
 
-### `npm start`
+[![License][ISC-bdg]][ISC-url]</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Table of Contents
+<summary>Table of Contents</summary>
+     <ol>
+       <li><a href="#about-the-project">About The Project</a></li>
+       <li><a href="#installation">Installation</a></li>
+       <li><a href="#usage">Usage</a></li>
+       <li><a href="#license">License</a></li>
+       <li><a href="#tests">Tests</a></li>
+       <li><a href="#questions">Questions</a></li>
+     </ol>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
+either "npm start" in the terminal at the root of the code or use the deployed link
+## Usage
+to see the work I've done
+## License
+[![License][ISC-bdg]][ISC-url]
+## Tests
 
-### `npm test`
+## Questions
+Email - 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+GitHub - [https://github.com/J0nK-LE](https://github.com/J0nK-LE)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[MIT-bdg]:https://img.shields.io/badge/License-MIT-yellow.svg
+[MIT-url]:https://opensource.org/licenses/MIT
+[Apache-bdg]:https://img.shields.io/badge/License-Apache_2.0-blue.svg
+[Apache-url]:https://opensource.org/licenses/Apache-2.0
+[GNU-bdg]:https://img.shields.io/badge/License-GPLv3-blue.svg
+[GNU-url]:https://www.gnu.org/licenses/gpl-3.0
+[IBM-bdg]:https://img.shields.io/badge/License-IPL_1.0-blue.svg
+[IBM-url]:https://opensource.org/licenses/IPL-1.0
+[ISC-bdg]:https://img.shields.io/badge/License-ISC-blue.svg
+[ISC-url]:https://opensource.org/licenses/ISC
+[Mozilla-bdg]:https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg
+[Mozilla-url]:https://opensource.org/licenses/MPL-2.0
