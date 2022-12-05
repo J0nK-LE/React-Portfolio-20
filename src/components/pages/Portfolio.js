@@ -149,7 +149,7 @@ function Portfolio() {
                 safely and swiftly!
                 <div>
                   TO ACCESS THE SITE - CLICK ON THE PICTURE OF THE ALLEY AND
-                  TYPE THE SECRET CODE "PASSWORD" TO GAIN ACCESS
+                  TYPE THE SECRET CODE "PASSWORD" TO GO TO THE LOGIN SCREEN
                 </div>
               </div>
             </div>
